@@ -8,15 +8,18 @@ import android.widget.Button;
 import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
+    //데이터 받아 올 배열
+    //ArrayList<String> arr_data = new ArrayList<String>();
 
     Button btn_board;
     Button btn_data_struct;
     Button btn_algorithm;
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
 
         //게시판 버튼 -> bulletin_board.class로 화면전환
         btn_board = findViewById(R.id.btn_board);
@@ -28,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        //자료구조 버튼 -> bulletin_board.class로 화면전환
+        //자료구조 버튼 -> data_struct.class로 화면전환
         btn_data_struct = findViewById(R.id.btn_data_struct);
         btn_data_struct.setOnClickListener(new View.OnClickListener(){
             @Override

@@ -47,31 +47,35 @@
     <LinearLayout
 
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="141dp"
         tools:context=".MainActivity">
 
 
         <Button
+            android:id="@+id/btn_board"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="15dp"
             android:text="게시판"
-            android:textSize="25dp"
-            android:id="@+id/btn_board"/>
+            android:textSize="25dp" />
+
         <Button
+            android:id="@+id/btn_data_struct"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"
             android:text="자료구조"
-            android:textSize="25dp"
-            android:id="@+id/btn_data_struct"/>
+            android:textSize="25dp" />
+
         <Button
+            android:id="@+id/btn_algorithm"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"
             android:text="알고리즘"
-            android:textSize="25dp"
-            android:id="@+id/btn_algorithm"/>
+            android:textSize="25dp" />
+
 
     </LinearLayout>
+
 </LinearLayout>
